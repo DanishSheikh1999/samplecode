@@ -4,8 +4,8 @@
 ##
 ##For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
-a = int(input("enter a number="))
-if a%3==0 and a%5==0:
+a = int(input("enter a number=")) #the inserted number gets stored in variable a
+if a%3==0 and a%5==0:             # % operator gives the remainder when a is divided by 3 or 5
     print("FizzBuzz")
 elif a%3==0:
     print("Fizz")
